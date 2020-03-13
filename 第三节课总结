@@ -1,0 +1,9 @@
+第三节课总结
+gradle插件开发。
+buildsrc开发 总目录新建buildSrc  新建包com.main.java.类
+新建build.gradle 引用gradle库
+新建class类继承plugin 作为一个插件
+progect.getexteion.create给插件创建扩展
+新建resourceS目录，META-INF,gradle-plugins,插件名.properties
+implementation-class=com.swt.plugin.TestGradle
+就可以在app的build中引用该插件了
